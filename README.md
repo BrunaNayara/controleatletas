@@ -9,6 +9,15 @@ Modalidade Esportiva
 --------------------
 Natação
 
+Características
+---------------
+Massa Corporal[kg]
+Estatura[cm]
+IMC[Kg/m²]
+Massa Magra[Kg]
+Massa Gorda[Kg]
+Envergadura[m]
+
 
 Desenvolvimento
 ---------------
