@@ -5,6 +5,11 @@ Sistema de cadastro de atletas (para práticas de conceitos de orientação a
 objetos e técnicas de programação).
 
 
+Modalidade Esportiva
+--------------------
+Natação
+
+
 Desenvolvimento
 ---------------
 
@@ -15,7 +20,7 @@ Autores
 ------
 
 Paulo Meirelles
-
+Bruna Moreira
 
 Licença
 -------
