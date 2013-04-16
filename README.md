@@ -11,9 +11,10 @@ Natação
 
 Características
 ---------------
-Massa Corporal[kg]
-Estatura[cm]
-IMC[Kg/m²]
+Categoria[PM/M/P/I/J]
+Massa Corporal[kg]   %Já está na classe atleta
+Estatura[cm] %Já está na classe atleta
+IMC[Kg/m²] 
 Massa Magra[Kg]
 Massa Gorda[Kg]
 Envergadura[m]
