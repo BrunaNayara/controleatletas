@@ -4,11 +4,10 @@ import java.util.ArrayList;
 
 public class Nadador extends Atleta {
 
-    private char categoria; //PM=Pré-Mirim  M=Mirim P=Petiz I=Infantil J=Junior
-    //JU=Junior IJ=Infanto-Juvenil JS=Junior-Senior
+    private char categoria; //P=Pré-Mirim  M=Mirim T=Petiz I=Infantil J=Junior 
+    //V=Juvenil F=Infanto-Juvenil S=Junior-Senior
     private ArrayList<Premiacao> premiacoes;
     private Double envergadura; // Em cm
-    private Double imc; 
     private Double massaMagra;
     private Double massaGorda;
     private int totalCompeticoes;
@@ -49,7 +48,7 @@ public class Nadador extends Atleta {
         return totalMedalhasPrata;
     }
 
-    public void settotalMedalhasPrata(int medalhasPrata) {
+    public void setTotalMedalhasPrata(int medalhasPrata) {
         this.totalMedalhasPrata = medalhasPrata;
     }
     
@@ -57,7 +56,7 @@ public class Nadador extends Atleta {
         return totalMedalhasBronze;
     }
 
-    public void settotalMedalhasBronze(int medalhasBronze) {
+    public void setTotalMedalhasBronze(int medalhasBronze) {
         this.totalMedalhasBronze = medalhasBronze;
     }
 
@@ -70,13 +69,6 @@ public class Nadador extends Atleta {
         this.envergadura = envergadura;
     }
     
-    public Double getImc() {
-        return imc;
-    }
-
-    public void setImc(Double imc) {
-        this.imc = imc;
-    }
     
     public Double getMassaGorda() {
         return massaGorda;
