@@ -8,12 +8,12 @@ public class Boxeador extends Atleta {
     private char estilo; // O=Ortodoxo(destro) S=Southpaw(canhoto)
     private ArrayList<Premiacao> premiacoes;
     private Double envergadura; // Em cm
-    private int totalLutas;
-    private int totalVitorias;
-    private int totalVitoriasNocaute;
-    private int totalEmpates;
-    private int totalDerrotas;
-    private int totalDesistencias;
+    private int totalLutas;//MG
+    private int totalVitorias;//MM
+    private int totalVitoriasNocaute;//Mc
+    private int totalEmpates;//Mo
+    private int totalDerrotas;//Mp
+    private int totalDesistencias;//mb
 
     public Boxeador(String nome) {
         super(nome);
